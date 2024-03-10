@@ -34,12 +34,10 @@ public class DummyForm {
         driver.findElement(By.xpath("//label[@for='Radio_3']")).click();
         driver.findElement(By.xpath("//div[.='-Select-']")).click();
 
+
         WebElement dropitem= driver.findElement(By.id("Dropdown-arialabel"));
         Select select = new Select(dropitem);
         select.selectByValue("Second Choice");
-
-
-
 
 
 
